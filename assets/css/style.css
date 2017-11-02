@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2017, 3:13:56 PM
+    Author     : Admin
+*/
+/*Importing fonts from Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*--------------------------------*/
+h1,h2,h3,h4,h5,a,p{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.margin-top-51px{
+    margin-top: 51px;
+}
+.navbar-brand{    
+    font-family: 'Open Sans', sans-serif !important;
+}
+.panel-heading{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.panel-body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.sidebar-wrapper{
+    position: relative;
+    margin-left: -15px;
+    height: 100%;
+}
+.sidebar{
+    border-right: 1px #dddddd solid;
+}
+.sidebar a{
+    display: block;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+}
+.sidebar>a>span{
+    padding-left: 10px;
+}
+.sidebar a:hover{
+    background: #f5f5f5;
+}
+.sidebar a:last-child{
+    border-bottom: none;
+}
+.navbar-fa-icon{
+    margin-top: 11px;
+    margin-bottom: 8px;
+}
+.user-menu{
+    margin-top: 48px !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.user-menu a{
+    
+}
+.patients{
+   box-shadow: 1px 1px 4px #dddddd;
+   
+}
+.patients-header{
+    padding: 20px;
+}
+.patients-body{
+    padding: 20px;
+}
+.add_new_patient{
+    padding: 20px;
+}
